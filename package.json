@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@xstate/vue": "^2.0.0",
+    "sass": "^1.58.3",
     "vue": "^3.2.45",
     "xstate": "^4.37.0"
   },
