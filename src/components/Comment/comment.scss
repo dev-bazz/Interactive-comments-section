@@ -1,0 +1,8 @@
+@use "../../scss/utility.scss" as *;
+
+.comment {
+	background-color: map-get($neutralColors, "Dark-blue");
+	padding: 2rem;
+	font-family: "Rubik";
+	color: white;
+}

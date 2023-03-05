@@ -1,7 +1,5 @@
 <script setup>
-	import Comment from "./components/Comment.vue";
-	import { ref } from "vue"; // Vue3 Dependencies
-	const hello = ref("hello World");
+	import Comment from "./components/Comment/Comment.vue";
 </script>
 
 <template>
@@ -9,3 +7,7 @@
 	<Comment msg="By BaZz" />
 	<p>Hello World</p>
 </template>
+
+<style lang="scss">
+	@import "./style.scss";
+</style>

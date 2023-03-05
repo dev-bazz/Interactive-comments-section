@@ -3,5 +3,9 @@
 </script>
 
 <template>
-	<h1>Comment {{ msg }}</h1>
+	<h1 class="comment">Comment {{ msg }}</h1>
 </template>
+
+<style scoped lang="scss">
+	@use "./comment.scss" as *;
+</style>
