@@ -4,8 +4,11 @@
 
 <template>
 	<h1>Hello World</h1>
-	<Comment msg="By BaZz" />
-	<p>Hello World</p>
+	<section>
+		<div class="container">
+			<Comment msg="By BaZz" />
+		</div>
+	</section>
 </template>
 
 <style lang="scss">

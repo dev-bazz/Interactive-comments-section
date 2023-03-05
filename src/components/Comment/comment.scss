@@ -1,8 +1,13 @@
 @use "../../scss/utility.scss" as *;
 
 .comment {
-	background-color: map-get($neutralColors, "Dark-blue");
+	background-color: map-get($neutralColors, "White");
 	padding: 2rem;
 	font-family: "Rubik";
-	color: white;
+	color: map-get($neutralColors, "Grayish-Blue");
+	border: 2px solid map-get($neutralColors, $key: "Light-gray");
+	border-radius: 10px;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	gap: 2rem;
 }
