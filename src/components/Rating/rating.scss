@@ -1,5 +1,40 @@
-@use "../../scss/utility.scss";
+@use "../../scss/utility.scss" as *;
+
 .rate-me {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	background-color: map-get($neutralColors, "Light-gray");
+	max-width: 50px;
+	padding: pix_rem(8px) pix_rem(16px);
+	border-radius: pix_rem(10px);
+	gap: pix_rem(14px);
+	width: 100%;
+	font-family: "Rubik";
+
+	output {
+		font-size: 20px;
+		font-weight: 700;
+		color: map-get($primaryColors, $key: "Moderate-blue");
+	}
+
+	button {
+		all: unset;
+	}
+
+	.btn-rating {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: pix_rem(10px);
+		cursor: pointer;
+		border-radius: pix_rem(10px);
+
+		&:active {
+			background-color: darken(
+				map-get($neutralColors, "Light-gray"),
+				$amount: 3
+			);
+		}
+	}
 }

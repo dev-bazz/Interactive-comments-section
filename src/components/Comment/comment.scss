@@ -8,6 +8,6 @@
 	border: 2px solid map-get($neutralColors, $key: "Light-gray");
 	border-radius: 10px;
 	display: grid;
-	grid-template-columns: auto 1fr;
-	gap: 2rem;
+	grid-template-columns: minmax(auto, pix_rem(80px)) 1fr;
+	gap: pix_rem(24px);
 }

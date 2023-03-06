@@ -1,0 +1,4 @@
+@function pix_rem($arg, $suffix: rem) {
+	$calculate: calc($arg/16px);
+	@return #{$calculate}#{$suffix};
+}
